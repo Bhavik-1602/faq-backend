@@ -1,4 +1,4 @@
-const FAQ = require('../models/FAQ');
+const FAQ = require('../models/FAQ.js');
 const FAQCategory = require('../models/FAQCategory.js');
 
 exports.addCategory = async (req, res) => {
