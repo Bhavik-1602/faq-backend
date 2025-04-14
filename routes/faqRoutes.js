@@ -1,7 +1,7 @@
 // backend/routes/faqRoutes.js
 const express = require("express");
 const router = express.Router();
-const Faq = require("../models/Faq");
+const Faq = require("../models/FAQ");
 
 // POST route to add FAQ
 router.post("/", async (req, res) => {
