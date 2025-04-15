@@ -15,10 +15,7 @@ connectDB();
 const app = express();
 
 // Middleware
-app.use(cors({
-  origin: 'http://localhost:5173', // your frontend URL
-  credentials: true,
-})); // Allow CORS (for frontend/backend connection)
+app.use(cors());
 app.use(express.json()); // Parse incoming JSON data
 
 // Routes
