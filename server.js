@@ -15,7 +15,7 @@ connectDB();
 const app = express();
 
 // Middleware
-const cors = require('cors');
+
 app.use(cors({ origin: "*" })); // Allow CORS (for frontend/backend connection)
 app.use(express.json()); // Parse incoming JSON data
 
